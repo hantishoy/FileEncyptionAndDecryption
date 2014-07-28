@@ -1,0 +1,17 @@
+INT	INT	INT	INT	INT
+国王等级或爵位	爵位升级对应的经验值	星阶上限	爵位称呼	体力值上限
+#level	maxExp	maxStarLevel	name	maxPhysicalPower
+1	456	1	Rank_1	150
+2	1000	1	Rank_2	160
+3	1500	2	Rank_3	170
+4	2000	2	Rank_4	180
+5	4000	3	Rank_5	190
+6	6200	3	Rank_6	200
+7	10000	4	Rank_7	210
+8	18000	4	Rank_8	230
+9	25000	5	Rank_9	250
+10	32000	5	Rank_10	270
+11	39000	6	Rank_11	290
+12	45000	6	Rank_12	310
+13	90000	7	Rank_13	340
+14	134556	8	Rank_14	380

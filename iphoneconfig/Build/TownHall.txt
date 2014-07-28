@@ -1,0 +1,12 @@
+INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+城镇大厅等级	升级所需时间	升级所需金币	升级所需石料	升级前置建筑ID	升级前置建筑等级	建筑图片ID	升级增加国王经验	开放土地数量	搬迁所需钻石数
+#level	upgradeCostTime	upgradeCostCoin	upgradeCostStone	upgradePrebuilding	upgradePrebuildingLevel	appearance		groundCount	relocateCost
+1	0	0	0	0	0	567	0	6	0
+2	100	0	700	0	0	567	26	8	20
+3	3600	0	2700	0	0	567	64	10	40
+4	38400	0	16700	0	0	567	138	12	60
+5	76800	0	100000	0	0	567	260	14	80
+6	153600	0	300000	0	0	567	442	16	100
+7	230400	0	600000	0	0	567	696	20	120
+8	288000	0	900000	0	0	567	1034	24	140
+9	384000	0	1200000	0	0	567	1468	28	160

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<config name="defaultHeroSpeed" type="int" value="666" />
+	<config name="distancePerGrid" type="int" value="3333" />
+	<config name="relocateCost" type="Array">
+		<element index="0" type="int" value="0" />
+		<element index="1" type="int" value="20" />
+		<element index="2" type="int" value="40" />
+		<element index="3" type="int" value="80" />
+		<element index="4" type="int" value="160" />
+	</config>
+	<config name="createAllianceCost" type="Array"><!-- 创建公会消耗的资源 -->
+		<element index="0" type="int" value="10000" /><!-- 食物 -->
+		<element index="1" type="int" value="10000" /><!-- 石头 -->
+		<element index="2" type="int" value="10000" /><!-- 金币 -->
+	</config>
+	<config name="protectDurationTime" type="int" value="21600" />
+	<config name="worldMapOpenReqireTownHall" type="int" value="4" />
+	<config name="relocateCooldownTime" type="int" value="604800" /><!-- 迁城冷却时间，单位秒 -->
+	<config name="allianceNameMinSize" type="int" value="3" /><!-- 公会名字最小字节限制 -->
+	<config name="allianceNameMaxSize" type="int" value="15" /><!-- 公会名字最大字节限制 -->
+	<config name="allianceAnnounceMaxSize" type="int" value="35" /><!-- 公会公告最大字节限制 -->
+	<config name="allianceMaxMemberCount" type="int" value="50" /><!-- 公会最大成员数 -->
+	<config name="allianceIconCount" type="int" value="12" /><!-- 公会图标个数限制 -->
+	<config name="maxLotteryLevel" type="int" value="5" /><!-- 转盘最大等级 -->
+	<config name="facebookFeedLinkURL" type="String" value="http://www.facebook.com" /><!-- facebook分享链接 -->
+	<config name="facebookFeedIconURL" type="String" value="https://raw.github.com/fbsamples/ios-3.x-howtos/master/Images/iossdk_logo.png" /><!-- facebook分享图标URL -->
+	<config name="secondCityOpenLevel" type="int" value="7" /><!-- 二城开放等级 -->
+	<config name="lotteryOpenLevel" type="int" value="2" /><!-- 大转盘开放等级 -->
+	<config name="inviteRewardsNumber"type="int"value="10"/><!-- 邀请好友获得的奖励数量 -->
+	<config name="receiveRewardsNumber"type="int"value="30"/><!-- 领取激活好友时的奖励数量 -->
+	<config name="serverIp" type="String" value="103.243.137.181" /><!-- 上线ip “103.243.137.181",9200-->
+	<config name="serverPort" type="int" value="9200" /><!-- 内网ip 101.36.91.4  54300 -->
+	<config name="LTserverIp" type="String" value="http://101.36.91.4:8983/silver_shell" />
+</data>

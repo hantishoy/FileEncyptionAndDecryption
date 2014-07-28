@@ -1,0 +1,8 @@
+INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+港口等级	升级所需时间	升级所需金币	升级所需石料	升级前置建筑ID	升级前置建筑等级	建筑图片ID	升级增加国王经验	每次求援金币上限	每次求援石料上限	每次求援食物上限	求援CD	援护军团卡牌数量上限
+#level	upgradeCostTime	upgradeCostCoin	upgradeCostStone	upgradePrebuilding	upgradePrebuildingLevel	appearance		maxCoinTransport	maxStoneTransport	maxFoodTransport	cooldown	maxHeros
+1	3600	1000	1000	1	3	567	30	10	10	10	900	1
+2	14400	10000	10000	1	5	567	200	15	15	15	900	2
+3	57600	100000	100000	1	7	567	658	35	35	35	900	3
+4	230400	1000000	1000000	1	8	567	1039	40	40	40	900	4
+5	921600	2000000	2000000	1	9	567	1546	45	45	45	900	5

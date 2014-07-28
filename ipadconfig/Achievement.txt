@@ -1,0 +1,63 @@
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	STRING	STRING
+ID	成就标题	达成条件	钻石奖励	奖励爵位经验	达成数值	参数( 类型ID为1这列不填，2填建筑类型，3英雄升级0或者1表示一个英雄，15表示15个英雄， 5套装ID(成就id) 10副本通关0表示通关就可以了，1表示需要通关并且所有英雄存活，11国王争霸战斗 （参数1 战胜其他领主X次，参数2成功抵御X次袭击，参数3派遣的援军阵亡X个），12国王争霸战斗夺取资源（ 参数1 食物，参数2石料，参数3金币） 13其他 （1 激活1级星阶 2 在facebook上给出评价)，3 分享《王冠战争》的体验))	"类型ID(1国王升级，2建筑升级，3英雄升级，4兵种升级，5收集套装，6某件装备达到某个品质，7战胜其他玩家，8抵御其他玩家， 9夺取原谅，10副本通关，11国王争霸战斗,12国王争霸战斗夺取资源,13其他)"	index(数据库字段 数组字段)	offset（从一个整型32位第几位开始保存数据）	size（用整型中的多少位保存一个数据）	界面排列顺序	总进度	名称	程序说明
+#id	name	description	rewardDiamond	rewardExp							order	maxProgress		
+1	Achievementname_1	Achievementcondition_1	5	14	3	1	2	0	0	1	4	3	小镇	
+2	Achievementname_2	Achievementcondition_2	15	410	6	1	2	1	1	1	23	6	小城	
+3	Achievementname_3	Achievementcondition_3	25	2714	9	1	2	2	2	1	57	9	首都	
+4	Achievementname_4	Achievementcondition_4	10	0	2		1	3	3	1	6	2	贵族血统	
+5	Achievementname_5	Achievementcondition_5	25	0	7		1	4			62	7	加冕国王	
+6	Achievementname_6	Achievementcondition_6	5	19	3	6	2	5			5	3	更多士兵	
+7	Achievementname_7	Achievementcondition_7	10	451	6	6	2	6			24	6	兵多将广	
+8	Achievementname_8	Achievementcondition_8	20	2819	9	6	2	7			58	9	百万雄师	
+9	Achievementname_9	Achievementcondition_9	15	2926	9		4	8			59	9	精锐部队	
+10	Achievementname_10	Achievementcondition_10	15	3035	60	1	3	9			60	60	百战将军	参数里面1用来和14区分的
+11	Achievementname_11	Achievementcondition_11	25	3146	14	14	3	10			61	14	无敌军团	参数里面14用来和1区分的
+12	Achievementname_12	Achievementcondition_12	1	11	1		10	11			3	1	踏上征程	
+13	Achievementname_13	Achievementcondition_13	5	110	14		10	12			13	1	平原的动乱	
+14	Achievementname_14	Achievementcondition_14	5	371	28		10	13			22	1	河湾的战歌	
+15	Achievementname_15	Achievementcondition_15	7	971	40	1	10	14			35	1	如梦方醒	
+16	Achievementname_16	Achievementcondition_16	5	1034	42		10	15			36	1	云雾之殇	
+17	Achievementname_17	Achievementcondition_17	5	2510	56		10	16			54	1	王国新生	
+18	Achievementname_18	Achievementcondition_18	5	91	12	1	10	17			11	1	血染祭坛	
+19	Achievementname_19	Achievementcondition_19	5	235	19	1	10	18			18	1	哥布林之王	
+20	Achievementname_20	Achievementcondition_20	5	334	26	1	10	19			21	1	上帝审判	
+21	Achievementname_21	Achievementcondition_21	5	739	33	1	10	20			31	1	法师的末日	
+22	Achievementname_22	Achievementcondition_22	10	1454	47	1	10	21			42	1	深夜造访	
+23	Achievementname_23	Achievementcondition_23	10	2411	54	1	10	22			53	1	屠龙归来	
+24	Achievementname_24	Achievementcondition_24	5	35	2		6	23			7	2	装备精良	
+25	Achievementname_25	Achievementcondition_25	5	1099	3		6	24			37	3	史诗传承	
+26	Achievementname_26	Achievementcondition_26	5	46	4	1	5	25			8	4	夜幕	
+27	Achievementname_27	Achievementcondition_27	10	59	4	2	5	26			9	4	狮心	
+28	Achievementname_28	Achievementcondition_28	10	74	4	3	5	27			10	4	勇气	
+29	Achievementname_29	Achievementcondition_29	10	179	4	4	5	28			16	4	海盗	
+30	Achievementname_30	Achievementcondition_30	10	206	4	5	5	29			17	4	宝藏	
+31	Achievementname_31	Achievementcondition_31	10	266	4	6	5	30			19	4	铁血	
+32	Achievementname_32	Achievementcondition_32	10	299	4	7	5	31			20	4	霸主	
+33	Achievementname_33	Achievementcondition_33	15	586	4	8	5	32			28	4	黎明	
+34	Achievementname_34	Achievementcondition_34	15	635	4	9	5	33			29	4	银鳞	
+35	Achievementname_35	Achievementcondition_35	15	686	4	10	5	34			30	4	黄昏	
+36	Achievementname_36	Achievementcondition_36	15	794	4	11	5	35			32	4	灰烬	
+37	Achievementname_37	Achievementcondition_37	15	851	4	12	5	36			33	4	屠龙	
+38	Achievementname_38	Achievementcondition_38	15	910	4	13	5	37			34	4	龙息	
+39	Achievementname_39	Achievementcondition_39	20	1166	4	14	5	38			38	4	深渊	
+40	Achievementname_40	Achievementcondition_40	20	1235	4	15	5	39			39	4	深寒	
+41	Achievementname_41	Achievementcondition_41	20	1306	4	16	5	40			40	4	战栗	
+42	Achievementname_42	Achievementcondition_42	20	1379	4	17	5	41			41	4	梦魇	
+43	Achievementname_43	Achievementcondition_43	20	2035	4	18	5	42			49	4	无尽	
+44	Achievementname_44	Achievementcondition_44	20	2126	4	19	5	43			50	4	永恒	
+45	Achievementname_45	Achievementcondition_45	20	2219	4	20	5	44			51	4	重生	
+46	Achievementname_46	Achievementcondition_46	20	2314	4	21	5	45			52	4	远古	
+47	Achievementname_47	Achievementcondition_47	100	5051	21	22	5	46			56	21	收藏家	
+48	Achievementname_48	Achievementcondition_48	5	131	10	1	11	47			14	10	小试牛刀	
+49	Achievementname_49	Achievementcondition_49	25	494	100	1	11	48			25	100	好战者	
+50	Achievementname_50	Achievementcondition_50	50	1610	1000	1	11	49			44	1000	战无不胜	
+51	Achievementname_51	Achievementcondition_51	5	154	10	2	11	50			15	10	安全堡垒	
+52	Achievementname_52	Achievementcondition_52	20	539	100	2	11	51			26	100	铜墙铁壁	
+53	Achievementname_53	Achievementcondition_53	40	1531	750	2	11	52			43	750	人在城在	
+54	Achievementname_54	Achievementcondition_54	40	1774	500000	1	12	53			46	500000	以战养战	
+55	Achievementname_55	Achievementcondition_55	40	1859	500000	2	12	54			47	500000	疯狂的石头	
+56	Achievementname_56	Achievementcondition_56	40	1946	500000	3	12	55			48	500000	拦路抢劫	
+57	Achievementname_57	Achievementcondition_57	10	200	0	1	13	56			45		日以继夜	
+58	Achievementname_58	Achievementcondition_58	10	400	1500	3	11	57			12	1500	肝胆相照	
+59	Achievementname_59	Achievementcondition_59	30	800	35000	3	11	58			27	35000	两肋插刀	
+60	Achievementname_60	Achievementcondition_60	60	1600	500000	3	11	59			55	500000	埋骨他乡	

@@ -1,0 +1,31 @@
+INT	INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	STRING	STRING	STRING
+英雄ID	种族	称号	初始物理攻击力	物理攻击力加成系数	初始魔法攻击力	魔法攻击力加成系数	物理防御	魔法防御	移动	初始步兵系统兵上限	步兵系统兵上限加成系数	初始骑兵系统兵上限	骑兵系统兵上限加成系数	初始弓兵系统兵上限	弓兵系统兵上限加成系数	技能ID1	技能ID2	能量上限	名字图片	头像资源	受击音效
+#id	race	nickname	basePhysicalAttack	physicalAttackGrowth	baseMagicAttack	magicAttackGrowth	physicalDefense	magicDefense	moveSpeed	baseInfantryLeadership	infantryLeadershipGrowth	baseCavalryLeadership	cavalryLeadershipGrowth	baseArcherLeadership	archerLeadershipGrowth	skill1	skill2	maxPower	nameResource	headResource	woundSound
+1	3	Nickname_1	1	0	1	0	0	0	666	7	13	7	10	7	10	1		1	Lightforge_Warrior	Lightforge_Warrior	wound/HumanMale
+2	3	Nickname_2	1	0	1	0	0	0	666	6	14	7	10	7	10	2		1	Captain_Iiron_Wall	Captain_Iiron_Wall	wound/HumanMale
+3	5	Nickname_3	7	30	7	30	0	0	666	8	12	8	9	8	8	3		1	Woodsorrel_Ambassador	Woodsorrel_Ambassador	wound/DwarfMale
+4	5	Nickname_4	7	30	7	30	0	0	666	8	12	8	9	8	8	4		1	Storm_King	Storm_King	wound/DwarfMale
+5	5	Nickname_5	6	24	6	24	0	0	666	8	12	8	10	8	10	5		1	Mithril_Hand	Mithril_Hand	wound/DwarfMale
+6	5	Nickname_6	6	24	6	24	0	0	666	8	12	8	10	8	10	6		1	Molten_Fury	Molten_Fury	wound/DwarfMale
+7	3	Nickname_7	5	22	5	22	0	0	666	7	10	7	10	7	13	7		2	RailHawks_Head	RailHawks_Head	wound/HumanMale
+8	3	Nickname_8	5	22	5	22	0	0	666	7	10	7	10	7	13	8		2	Revenge_of_the_Arrow	Revenge_of_the_Arrow	wound/HumanMale
+9	1	Nickname_9	5	26	5	26	0	0	666	9	9	9	9	9	11	9		1	Shadow_Scout	Shadow_Scout	wound/NightElfMale
+10	1	Nickname_10	5	26	5	26	0	0	666	9	9	9	9	9	11	10		1	Hunt_Masters	Hunt_Masters	wound/NightElfMale
+11	1	Nickname_11	10	46	10	46	0	0	666	8	10	8	10	8	12	11		1	Elf_Pride	Elf_Pride	wound/NightElfFemale
+12	1	Nickname_12	10	46	10	46	0	0	666	8	10	8	10	8	12	12		1	Forest_Daughter	Forest_Daughter	wound/NightElfFemale
+13	1	Nickname_13	4	20	4	20	0	0	666	8	12	8	8	8	12	13		1	Wind_Ranger	Wind_Ranger	wound/NightElfMale
+14	1	Nickname_14	4	20	4	20	0	0	666	8	12	8	8	8	12	14		1	Demon_Hunter	Demon_Hunter	wound/NightElfMale
+15	3	Nickname_15	1	0	1	0	0	0	666	9	11	9	11	8	8	15		1	Helm_Knight	Helm_Knight	wound/HumanMale
+16	3	Nickname_16	4	24	4	24	0	0	666	9	11	9	13	9	11	16		2	Knights_of_Truth	Knights_of_Truth	wound/HumanMale
+17	3	Nickname_17	1	0	1	0	0	0	666	7	10	7	13	7	10	17		2	Lions_Marshal	Lions_Marshal	wound/HumanMale
+18	3	Nickname_18	1	0	1	0	0	0	666	8	10	8	12	8	10	18		1	General_Revelation	General_Revelation	wound/HumanMale
+19	1	Nickname_19	10	46	10	46	0	0	666	9	9	9	13	9	9	19		2	Silver_Lightning	Silver_Lightning	wound/NightElfFemale
+20	1	Nickname_20	10	46	10	46	0	0	666	9	9	9	13	9	9	20		2	Wings_of_Light	Wings_of_Light	wound/NightElfFemale
+21	3	Nickname_21	5	36	5	36	0	0	666	10	7	10	7	10	10	21		2	Balanced_Master	Balanced_Master	wound/HumanMaleOld
+22	3	Nickname_22	5	36	5	36	0	0	666	10	7	10	7	10	10	22		2	Elements_Master	Elements_Master	wound/HumanMaleOld
+23	3	Nickname_23	1	0	1	0	0	0	666	10	10	10	10	10	10	23		2	Wrath_Apostle	Wrath_Apostle	wound/HumanFamale
+24	3	Nickname_24	1	0	1	0	0	0	666	10	10	10	10	10	10	24		1	Sun_Priest	Sun_Priest	wound/HumanFamale
+25	3	Nickname_25	13	64	13	64	0	0	666	10	10	10	10	10	10	25		2	Pray_Apostle	Pray_Apostle	wound/HumanFamale
+26	3	Nickname_26	13	64	13	64	0	0	666	10	10	10	10	10	10	26		2	Virgen_Chanting	Virgen_Chanting	wound/HumanFamale
+27	3	Nickname_27	1	0	1	0	0	0	666	10	10	10	10	10	10	27		1	Sage_Turm	Sage_Turm	wound/HumanMaleOld
+28	3	Nickname_28	1	0	1	0	0	0	666	10	10	10	10	10	10	28		1	Temple_Prophet	Temple_Prophet	wound/HumanMaleOld

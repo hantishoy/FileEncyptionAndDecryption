@@ -1,0 +1,210 @@
+INT	INT	INT	INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	STRING	STRING	INT	INT	STRING	STRING	STRING	INT	INT	STRING
+怪物ID	种族	头像ID	怪物名称	称号	等级	物理攻击力	魔法攻击力	物理防御	魔法防御	移动	步兵系统兵上限	骑兵系统兵上限	弓兵系统兵上限	技能ID1	技能ID2	能量上限	必然掉落数量	必然掉落物品集	必然掉落权值	也许掉落数量	也许掉落几率	也许掉落物品集	也许掉落权值	名字图片	是否为BOSS（0否1是）	卡片特效	受击音效
+#id	race	headResource	name	nickname	level	basePhysicalAttack	baseMagicAttack	physicalDefense	magicDefense	moveSpeed	baseInfantryLeadership	baseCavalryLeadership	baseArcherLeadership	skill1	skill2	maxPower								nameResource	isBoss	cardLightEffect	woundSound
+1	3	Lieutenant_Leo	1	Monster_1	1	10	10	0	0	100	999	999	999	19		2	1	1|2	20|20	0	0	0	0	Lieutenant_Leo	1		wound/HumanMaleEnemy
+2	3	Rebels_3	2	Monster_2	2	0	0	0	0	100	999	999	999			0	0	0	0	1	17	3|4|5	20|20|20	Aden_footmen	0		wound/HumanMaleEnemy
+3	3	Captain_Hannibal	3	Monster_3	2	30	30	0	0	100	999	999	999	20		2	0	0	0	1	50	6|7	20|20	Captain_Hannibal	1		wound/HumanMaleEnemy
+4	4	Goblin_1	4	Monster_4	3	0	0	0	0	100	999	999	999			0	0	0	0	1	16	8|9|10	20|20|20	Pointed_ears	0		wound/Goblin
+5	4	Geluoke_Poisonspear	5	Monster_5	3	50	50	0	0	100	999	999	999	13		1	0	0	0	1	50	16	20	Geluoke_Poisonspear	1		wound/Goblin
+6	4	Goblin_1	6	Monster_6	4	0	0	0	0	100	999	999	999			0	0	0	0	1	15	18|19|20	20|20|20	Pointed_ears_Guard	0		wound/Goblin
+7	4	Zach_rich	7	Monster_7	4	75	75	0	0	100	999	999	999	14		1	0	0	0	1	45	17	20	Greedy_Knicks	1		wound/Goblin
+8	4	Goblin_1	8	Monster_8	6	0	0	0	0	100	999	999	999			0	0	0	0	1	14	23	20	Pointed_ears_Marauders	0		wound/Goblin
+9	4	Lurker_Gates	9	Monster_9	6	170	170	0	0	100	999	999	999	3		1	0	0	0	1	40	22	20	Lurker_Gates	1		wound/Goblin
+10	1	Panther_2	10	Monster_10	7	0	0	0	0	100	999	999	999			0	0	0	0	1	13	24|25	20|20	Cheetah_Plains	0		wound/Leopard
+11	1	Panther_1	11	Monster_11	7	0	0	0	0	100	999	999	999			0	0	0	0	1	40	21	20	Panthers_Jack	1		wound/Leopard
+12	3	Rebels_2	12	Monster_12	8	0	0	0	0	100	999	999	999			0	0	0	0	1	12	28	20	Aden_Rangers	0		wound/HumanMaleEnemy
+13	3	Duncan_Hunter	13	Monster_13	8	160	160	0	0	100	999	999	999	7		2	0	0	0	1	35	26	20	Duncan_Hunter	1		wound/NightElfMale
+14	1	Bear_2	14	Monster_14	9	0	0	0	0	100	999	999	999			0	0	0	0	1	12	29|30	20|20	Wild_Bear	0		wound/Bear
+15	1	Bear_3	15	Monster_15	9	0	0	0	0	100	999	999	999			0	0	0	0	1	35	27	20	Handsome_Ursel	1		wound/Bear
+16	2	Orc_3	16	Monster_16	10	0	0	0	0	100	999	999	999			0	0	0	0	1	11	33	20	Howl_Grunt	0		wound/OrcMale
+17	2	Orc_5	17	Monster_17	10	0	0	0	0	100	999	999	999			0	0	0	0	1	11	34	20	Howl_Axe_Thrower	0		wound/OrcMale
+18	2	Chiefs_Attila	18	Monster_18	10	230	230	0	0	100	999	999	999	6		1	0	0	0	1	35	31	20	Bloody_hands_Visack	1		wound/OrcMale
+19	3	Rebels_2	19	Monster_19	11	0	0	0	0	100	999	999	999			0	0	0	0	1	11	35	20	Aden_heavy_cavalry	0		wound/HumanMaleEnemy
+20	3	Rebels_3	20	Monster_20	11	0	0	0	0	100	999	999	999			0	0	0	0	1	11	33|34|35	20|20|20	Aden_Swordsman	0		wound/HumanMaleEnemy
+21	3	Gerald_Lord	21	Monster_21	11	250	250	0	0	100	999	999	999	22		2	0	0	0	1	30	32	20	Gerald_Lord	1		wound/HumanMaleEnemy
+22	3	Rebels_1	22	Monster_22	13	0	0	0	0	100	999	999	999			0	0	0	0	1	11	38|39|40	20|20|20	Aden_shooter	0		wound/HumanMaleEnemy
+23	3	Rebels_3	23	Monster_23	13	0	0	0	0	100	999	999	999			0	0	0	0	1	11	38|39|40	20|20|20	Aden_Squire	0		wound/HumanMaleEnemy
+24	3	Sir_Bawaer	24	Monster_24	13	0	0	0	0	100	999	999	999	17		2	0	0	0	1	30	36|37	20|20	Sir_Bawaer	1		wound/HumanMaleEnemy
+25	3	Rebels_3	25	Monster_25	14	0	0	0	0	100	999	999	999			0	0	0	0	1	10	51	20	Aden_guard	0		wound/HumanMaleEnemy
+26	3	Rebels_1	26	Monster_26	14	0	0	0	0	100	999	999	999			0	0	0	0	1	10	52	20	Aden_longbows	0		wound/HumanMaleEnemy
+27	3	Marcus_Baron	27	Monster_27	14	0	0	0	0	100	999	999	999	1		1	0	0	0	1	30	49	20	Marcus_Baron	1		wound/HumanMaleEnemy
+28	3	Empire_2	28	Monster_28	16	0	0	0	0	100	999	999	999			0	0	0	0	1	10	53	20	River_bend_patrol	0		wound/HumanMaleEnemy
+29	3	Empire_1	29	Monster_29	16	0	0	0	0	100	999	999	999			0	0	0	0	1	10	51|52|53	20|20|20	River_bend_footmen	0		wound/HumanMaleEnemy
+30	3	Half_palm_Bannister	30	Monster_30	16	590	590	0	0	100	999	999	999	4		1	0	0	0	1	25	50	20	Half_palm_Bannister	1		wound/HumanMaleEnemy
+31	3	Empire_3	31	Monster_31	17	0	0	0	0	100	999	999	999			0	0	0	0	1	10	56	20	River_bend_Rangers	0		wound/HumanMaleEnemy
+32	3	Empire_1	32	Monster_32	17	0	0	0	0	100	999	999	999			0	0	0	0	1	10	57	20	River_bend_Squire	0		wound/HumanMaleEnemy
+33	3	Empire_2	33	Monster_33	17	0	0	0	0	100	999	999	999			0	0	0	0	1	10	58	20	River_bend_shooter	0		wound/HumanMaleEnemy
+34	3	Scarlet_Mary	34	Monster_34	17	850	850	0	0	100	999	999	999	11		1	0	0	0	1	25	54	20	Scarlet_Mary	1		wound/HumanFamaleEnemy
+35	2	Orc_3	35	Monster_35	18	0	0	0	0	100	999	999	999			0	0	0	0	1	10	56|57	20|20	Iron_teeth_Orc	0		wound/OrcMale
+36	2	Orc_5	36	Monster_36	18	0	0	0	0	100	999	999	999			0	0	0	0	1	10	57|58	20|20	Iron_teeth_Spear_Thrower	0		wound/OrcMale
+37	2	Wolf_Gelush	37	Monster_37	18	580	580	0	0	100	999	999	999	16		2	0	0	0	1	25	55	20	Wolf_Gelush	1		wound/OrcMale
+38	4	Goblin_1	38	Monster_38	19	0	0	0	0	100	999	999	999			0	0	0	0	1	10	61|62	20|20	Blackwater_rogue	0		wound/Goblin
+39	4	Goblin_1	39	Monster_39	19	0	0	0	0	100	999	999	999			0	0	0	0	1	10	62|63	20|20	Blackwater_Goblin	0		wound/Goblin
+40	4	Ghost_Hand_Dilibu	40	Monster_40	19	0	0	0	0	100	999	999	999	27		1	0	0	0	1	25	59|60	20|20	Ghost_Hand_Dilibu	1		wound/Goblin
+41	2	Orc_5	41	Monster_41	21	0	0	0	0	100	999	999	999			0	0	0	0	1	10	66	20	Iron_teeth_Scout	0		wound/OrcMale
+42	2	Orc_1	42	Monster_42	21	0	0	0	0	100	999	999	999			0	0	0	0	1	10	67	20	Iron_teeth_Predators	0		wound/OrcMale
+43	2	Orc_3	43	Monster_43	21	0	0	0	0	100	999	999	999			0	0	0	0	1	10	68	20	Iron_teeth_thug	0		wound/OrcMale
+44	2	Eyed_Matewa	44	Monster_44	21	0	0	0	0	100	999	999	999	18		1	0	0	0	1	25	64	20	Eyed_Matewa	1		wound/OrcMale
+45	1	Spider_2	45	Monster_45	22	0	0	0	0	100	999	999	999			0	0	0	0	1	10	67	20	Wetlands_spider	0		wound/Spider
+46	1	Panther_2	46	Monster_46	22	0	0	0	0	100	999	999	999			0	0	0	0	1	10	68	20	Wetlands_Cheetah	0		wound/Leopard
+47	1	Spider_1	47	Monster_47	22	0	0	0	0	100	999	999	999			0	0	0	0	1	25	65	20	Eight_feet_Witch	1		wound/Spider
+48	3	Empire_3	48	Monster_48	23	0	0	0	0	100	999	999	999			0	0	0	0	1	9	71	20	River_bend_light_cavalry	0		wound/HumanMaleEnemy
+49	3	Empire_2	49	Monster_49	23	0	0	0	0	100	999	999	999			0	0	0	0	1	9	72	20	River_bend_longbows	0		wound/HumanMaleEnemy
+50	3	Empire_1	50	Monster_50	23	0	0	0	0	100	999	999	999			0	0	0	0	1	9	73	20	River_bend_ guard	0		wound/HumanMaleEnemy
+51	3	Volcano_Sgasa	51	Monster_51	23	900	900	0	0	100	999	999	999	21		2	0	0	0	1	25	69|70	20|20	Volcano_Sgasa	1		wound/HumanFamaleEnemy
+52	3	Empire_2	52	Monster_52	24	0	0	0	0	100	999	999	999			0	0	0	0	1	9	84	20	River_bend_crossbowman	0		wound/HumanMaleEnemy
+53	3	Empire_1	53	Monster_53	24	0	0	0	0	100	999	999	999			0	0	0	0	1	9	85	20	River_bend_Swordsman	0		wound/HumanMaleEnemy
+54	3	Empire_3	54	Monster_54	24	0	0	0	0	100	999	999	999			0	0	0	0	1	9	86	20	River_bend_Lancers	0		wound/HumanMaleEnemy
+55	3	Crazy_Stone_Jason	55	Monster_55	24	0	0	0	0	100	999	999	999	15		1	0	0	0	1	25	82	20	Crazy_Stone_Jason	1		wound/HumanMaleEnemy
+56	2	Orc_3	56	Monster_56	25	0	0	0	0	100	999	999	999			0	0	0	0	1	9	84	20	Iron_teeth_Warriors	0		wound/OrcMale
+57	2	Orc_2	57	Monster_57	25	0	0	0	0	100	999	999	999			0	0	0	0	1	9	85	20	Iron_teeth_Shaman	0		wound/OrcMale
+58	2	Orc_1	58	Monster_58	25	0	0	0	0	100	999	999	999			0	0	0	0	1	9	86	20	Iron_teeth_attacker	0		wound/OrcMale
+59	2	Warlock_Mocha	59	Monster_59	25	1250	1250	0	0	100	999	999	999	12		1	0	0	0	1	25	83	20	Warlock_Mocha	1		wound/OrcFemale
+60	2	Orc_3	60	Monster_60	26	0	0	0	0	100	999	999	999			0	0	0	0	1	9	89	20	Iron_teeth_Gladiator	0		wound/OrcMale
+61	2	Orc_5	61	Monster_61	26	0	0	0	0	100	999	999	999			0	0	0	0	1	9	90	20	Iron_teeth_Axe_Thrower	0		wound/OrcMale
+62	2	Orc_1	62	Monster_62	26	0	0	0	0	100	999	999	999			0	0	0	0	1	9	91	20	Iron_teeth_Destroyer	0		wound/OrcMale
+63	2	Butcher_Logeta	63	Monster_63	26	0	0	0	0	100	999	999	999	23		2	0	0	0	1	25	87|88	20|20	Butcher_Logeta	1		wound/OrcMale
+64	4	Goblin_2	64	Monster_64	28	0	0	0	0	100	999	999	999			0	0	0	0	1	9	94	20	Blackwater_peons	0		wound/Goblin
+65	4	Goblin_4	65	Monster_65	28	0	0	0	0	100	999	999	999			0	0	0	0	1	9	95	20	Blackwater_Spear_Thrower	0		wound/Goblin
+66	4	Goblin_1	66	Monster_66	28	0	0	0	0	100	999	999	999			0	0	0	0	1	9	96	20	Blackwater_overseer	0		wound/Goblin
+67	4	Geluoke_Poisonspear	67	Monster_67	28	1550	1550	0	0	100	999	999	999	19		2	0	0	0	1	25	92	20	Hideskinner_Meath	1		wound/Goblin
+68	4	Goblin_1	68	Monster_68	29	0	0	0	0	100	999	999	999			0	0	0	0	1	9	94	20	Blackwater_beater	0		wound/Goblin
+69	4	Goblin_1	69	Monster_69	29	0	0	0	0	100	999	999	999			0	0	0	0	1	9	95	20	Blackwater_Pirate	0		wound/Goblin
+70	4	Goblin_4	70	Monster_70	29	0	0	0	0	100	999	999	999			0	0	0	0	1	9	96	20	Blackwater_crossbowman	0		wound/Goblin
+71	4	Captain_Depp	71	Monster_71	29	0	0	0	0	100	999	999	999	18		1	0	0	0	1	25	93	20	Captain_Depp	1		wound/Goblin
+72	4	Goblin_4	72	Monster_72	31	0	0	0	0	100	999	999	999			0	0	0	0	1	9	99	20	Thorns_Spear_Thrower	0		wound/Goblin
+73	4	Goblin_2	73	Monster_73	31	0	0	0	0	100	999	999	999			0	0	0	0	1	9	100	20	Thorns_sailor	0		wound/Goblin
+74	4	Goblin_1	74	Monster_74	31	0	0	0	0	100	999	999	999			0	0	0	0	1	9	101	20	Thorns_rogue	0		wound/Goblin
+75	4	Zach_rich	75	Monster_75	31	0	0	0	0	100	999	999	999	28		1	0	0	0	1	25	97|98	20|20	Zach_rich	1		wound/Goblin
+76	3	Rebels_3	76	Monster_76	32	0	0	0	0	100	999	999	999			0	0	0	0	1	9	112	20	Gleneagles_Infantry	0		wound/HumanMaleEnemy
+77	3	Rebels_1	77	Monster_77	32	0	0	0	0	100	999	999	999			0	0	0	0	1	9	113	20	Gleneagles_longbows	0		wound/HumanMaleEnemy
+78	3	Rebels_2	78	Monster_78	32	0	0	0	0	100	999	999	999			0	0	0	0	1	9	114	20	Gleneagles_Knights	0		wound/HumanMaleEnemy
+79	3	White_Feather_Marin	79	Monster_79	32	740	740	0	0	100	999	999	999	8		2	0	0	0	1	25	110	20	White_Feather_Marin	1		wound/HumanMaleEnemy
+80	4	Goblin_5	80	Monster_80	33	0	0	0	0	100	999	999	999			0	0	0	0	1	9	112	20	Thorns_miner	0		wound/Goblin
+81	4	Goblin_1	81	Monster_81	33	0	0	0	0	100	999	999	999			0	0	0	0	1	9	113	20	Thorns_supervision	0		wound/Goblin
+82	4	Goblin_4	82	Monster_82	33	0	0	0	0	100	999	999	999			0	0	0	0	1	9	114	20	Thorns_Follower	0		wound/Goblin
+83	4	Lurker_Gates	83	Monster_83	33	1040	1040	0	0	100	999	999	999	9		1	0	0	0	1	25	111	20	Dark_Blade_Cooper	1		wound/Goblin
+84	4	Goblin_1	84	Monster_84	34	0	0	0	0	100	999	999	999			0	0	0	0	1	8	117	20	Thorns_Goblin	0		wound/Goblin
+85	4	Goblin_6	85	Monster_85	34	0	0	0	0	100	999	999	999			0	0	0	0	1	8	118	20	Thorns_Warlock	0		wound/Goblin
+86	4	Goblin_1	86	Monster_86	34	0	0	0	0	100	999	999	999			0	0	0	0	1	8	119	20	Thorns_robber	0		wound/Goblin
+87	4	Ghost_Hand_Dilibu	87	Monster_87	34	780	780	0	0	100	999	999	999	13		1	0	0	0	1	25	115|116	20|20	Black_Mist_Feith	1		wound/Goblin
+88	1	Spider_2	88	Monster_88	36	0	0	0	0	100	999	999	999			0	0	0	0	1	8	122	20	Mountain_ridge_Spider 	0		wound/Spider
+89	1	Panther_2	89	Monster_89	36	0	0	0	0	100	999	999	999			0	0	0	0	1	8	123	20	Mountain_ridge_Male_leopard	0		wound/Spider
+90	1	Panther_2	90	Monster_90	36	0	0	0	0	100	999	999	999			0	0	0	0	1	8	124	20	Elderly_Mountain_ridge_Leopard	0		wound/Leopard
+91	1	Panther_1	91	Monster_91	36	0	0	0	0	100	999	999	999			0	0	0	0	1	24	120	20	Leopard_King_Shakugan	1		wound/Leopard
+92	3	Rebels_3	92	Monster_92	37	0	0	0	0	100	999	999	999			0	0	0	0	1	8	122	20	Gleneagles_guard	0		wound/HumanMaleEnemy
+93	3	Rebels_2	93	Monster_93	37	0	0	0	0	100	999	999	999			0	0	0	0	1	8	123	20	Gleneagles_Lancer	0		wound/HumanMaleEnemy
+94	3	Rebels_1	94	Monster_94	37	0	0	0	0	100	999	999	999			0	0	0	0	1	8	124	20	Gleneagles_Sentinel	0		wound/HumanMaleEnemy
+95	3	Lieutenant_Leo	95	Monster_95	37	0	0	0	0	100	999	999	999	2		1	0	0	0	1	23	121	20	Kerigang_Kennedy_Shield	1		wound/HumanMaleEnemy
+96	2	Orc_3	96	Monster_96	38	0	0	0	0	100	999	999	999			0	0	0	0	1	8	139	20	Boneshredder_Grunt	0		wound/OrcMale
+97	2	Orc_1	97	Monster_97	38	0	0	0	0	100	999	999	999			0	0	0	0	1	8	140	20	Boneshredder_Predators	0		wound/OrcMale
+98	2	Orc_5	98	Monster_98	38	0	0	0	0	100	999	999	999			0	0	0	0	1	8	141	20	Boneshredder_Scout	0		wound/OrcMale
+99	2	Wolf_Gelush	99	Monster_99	38	1000	1000	0	0	100	999	999	999	6		1	0	0	0	1	22	137|138	20|20	Razor_Maguke	1		wound/OrcMale
+100	2	Orc_3	100	Monster_100	39	0	0	0	0	100	999	999	999			0	0	0	0	1	7	144	20	Boneshredder_Berserker	0		wound/OrcMale
+101	2	Orc_1	101	Monster_101	39	0	0	0	0	100	999	999	999			0	0	0	0	1	7	145	20	Boneshredder_wolf_rider	0		wound/OrcMale
+102	2	Orc_2	102	Monster_102	39	0	0	0	0	100	999	999	999			0	0	0	0	1	7	146	20	Boneshredder_Shaman	0		wound/OrcMale
+103	2	Eyed_Matewa	103	Monster_103	39	1410	1410	0	0	100	999	999	999	3		1	0	0	0	1	21	142	20	Nine_Lives_Drogo	1		wound/OrcMale
+104	3	Rebels_3	104	Monster_104	40	0	0	0	0	100	999	999	999			0	0	0	0	1	7	144	20	Gleneagles_Swordsman	0		wound/HumanMaleEnemy
+105	3	Rebels_2	105	Monster_105	40	0	0	0	0	100	999	999	999			0	0	0	0	1	7	145	20	Gleneagles_heavy_cavalry	0		wound/HumanMaleEnemy
+106	3	Rebels_1	106	Monster_106	40	0	0	0	0	100	999	999	999			0	0	0	0	1	7	146	20	Gleneagles_crossbowman	0		wound/HumanMaleEnemy
+107	3	Marcus_Baron	107	Monster_107	40	1300	1300	0	0	100	999	999	999	16		2	0	0	0	1	20	143	20	Champion_Rega	1		wound/HumanMaleEnemy
+108	1	Spider_1	108	Monster_108	41	0	0	0	0	100	999	999	999			0	0	0	0	1	6	149	20	Spider_Canyon	0		wound/Spider
+109	1	Bear_2	109	Monster_109	41	0	0	0	0	100	999	999	999			0	0	0	0	1	6	150	20	Male_Bear_Canyon	0		wound/Bear
+110	1	Bear_2	110	Monster_110	41	0	0	0	0	100	999	999	999			0	0	0	0	1	6	151	20	Old_Bear_Canyon	0		wound/Bear
+111	1	Bear_3	111	Monster_111	41	0	0	0	0	100	999	999	999			0	0	0	0	1	19	147	20	Black_blind_Chora	1		wound/Bear
+112	3	Rebels_1	112	Monster_112	43	0	0	0	0	100	999	999	999			0	0	0	0	1	6	149	20	Gleneagles_patrol	0		wound/HumanMaleEnemy
+113	3	Rebels_2	113	Monster_113	43	0	0	0	0	100	999	999	999			0	0	0	0	1	6	150	20	Gleneagles_Ranger	0		wound/HumanMaleEnemy
+114	3	Rebels_3	114	Monster_114	43	0	0	0	0	100	999	999	999			0	0	0	0	1	6	151	20	Gleneagles_Warrior	0		wound/HumanMaleEnemy
+115	3	Scarlet_Mary	115	Monster_115	43	2400	2400	0	0	100	999	999	999	20		2	0	0	0	1	18	148	20	Red_Wind_Balinda	1		wound/HumanFamale
+116	3	Rebels_4	116	Monster_116	44	0	0	0	0	100	999	999	999			0	0	0	0	1	5	166	20	Gleneagles Mage	0		wound/HumanMaleEnemy
+117	3	Rebels_2	117	Monster_117	44	0	0	0	0	100	999	999	999			0	0	0	0	1	5	167	20	Gleneagles_Blood_Knight	0		wound/HumanMaleEnemy
+118	3	Rebels_3	118	Monster_118	44	0	0	0	0	100	999	999	999			0	0	0	0	1	5	168	20	Gleneagles_defenders	0		wound/HumanMaleEnemy
+119	3	Hawkeye_Clint	119	Monster_119	44	1040	1040	0	0	100	999	999	999	7		2	0	0	0	1	17	164|165	20|20	Hawkeye_Clint	1		wound/HumanMaleEnemy
+120	3	Empire_1	120	Monster_120	46	0	0	0	0	100	999	999	999			0	0	0	0	1	5	171	20	Imperia_footmen	0		wound/HumanMaleEnemy
+121	3	Empire_3	121	Monster_121	46	0	0	0	0	100	999	999	999			0	0	0	0	1	5	172	20	Imperia_Light_Cavalry	0		wound/HumanMaleEnemy
+122	3	Empire_4	122	Monster_122	46	0	0	0	0	100	999	999	999			0	0	0	0	1	5	173	20	Imperial_Mage	0		wound/HumanMaleEnemy
+123	3	Captain_Hannibal	123	Monster_123	46	0	0	0	0	100	999	999	999	1		1	0	0	0	1	16	169	20	Commander_Sandor	1		wound/HumanMaleEnemy
+124	2	Goblin_4	124	Monster_124	47	0	0	0	0	100	999	999	999			0	0	0	0	1	4	171	20	Wild_bone_crossbowman	0		wound/Goblin
+125	2	Goblin_1	125	Monster_125	47	0	0	0	0	100	999	999	999			0	0	0	0	1	4	172	20	Wild_bone_pirate	0		wound/Goblin
+126	2	Goblin_1	126	Monster_126	47	0	0	0	0	100	999	999	999			0	0	0	0	1	4	173	20	Wild_bone_abuser	0		wound/Goblin
+127	2	Captain_Depp	127	Monster_127	47	1520	1520	0	0	100	999	999	999	10		1	0	0	0	1	15	170	20	Pirate_King_Neisser	1		wound/Goblin
+128	2	Goblin_3	128	Monster_128	48	0	0	0	0	100	999	999	999			0	0	0	0	1	4	176	20	Wild_bone_chef	0		wound/Goblin
+129	2	Goblin_1	129	Monster_129	48	0	0	0	0	100	999	999	999			0	0	0	0	1	4	177	20	Wild_bone_Ambusher	0		wound/Goblin
+130	2	Goblin_6	130	Monster_130	48	0	0	0	0	100	999	999	999			0	0	0	0	1	4	178	20	Wild_bone_Elder	0		wound/Goblin
+131	2	Gary_King	131	Monster_131	48	1120	1120	0	0	100	999	999	999	14		1	0	0	0	1	14	174|175	20|20	Imp_Tyrion	1		wound/Goblin
+132	1	Werewolf_2	132	Monster_132	49	0	0	0	0	100	999	999	999			0	0	0	0	1	3	197	20	Night_Shadow_Werewolf	0		wound/wolfman
+133	1	Werewolf_2	133	Monster_133	49	0	0	0	0	100	999	999	999			0	0	0	0	1	3	198	20	Night_Shadow_Hunter	0		wound/wolfman
+134	1	Werewolf_2	134	Monster_134	49	0	0	0	0	100	999	999	999			0	0	0	0	1	3	199	20	Night_Shadow_Ripper	0		wound/wolfman
+135	1	Werewolf_3	135	Monster_135	49	1140	1140	0	0	100	999	999	999	13		1	0	0	0	1	13	195	20	The_Dark_Son	1		wound/wolfman
+136	3	Empire_2	136	Monster_136	51	0	0	0	0	100	999	999	999			0	0	0	0	1	3	197	20	Imperial_patrol	0		wound/HumanMaleEnemy
+137	3	Empire_3	137	Monster_137	51	0	0	0	0	100	999	999	999			0	0	0	0	1	3	198	20	Imperial_striker	0		wound/HumanMaleEnemy
+138	3	Empire_1	138	Monster_138	51	0	0	0	0	100	999	999	999			0	0	0	0	1	3	199	20	Imperial_Swordsman	0		wound/HumanMaleEnemy
+139	3	Half_palm_Bannister	139	Monster_139	51	0	0	0	0	100	999	999	999	17		2	0	0	0	1	12	196	20	Legend_Saven	1		wound/HumanMaleEnemy
+140	2	Orc_3	140	Monster_140	52	0	0	0	0	100	999	999	999			0	0	0	0	1	2	200|201|202|203|204	20|20|20|20|20	Ragefist_Gladiator	0		wound/OrcMale
+141	2	Orc_1	141	Monster_141	52	0	0	0	0	100	999	999	999			0	0	0	0	1	2	200|201|202|203|204	20|20|20|20|20	Ragefist_Destroyer	0		wound/OrcMale
+142	2	Orc_5	142	Monster_142	52	0	0	0	0	100	999	999	999			0	0	0	0	1	2	200|201|202|203|204	20|20|20|20|20	Ragefist_Axe_Thrower	0		wound/OrcMale
+143	2	Butcher_Logeta	143	Monster_143	52	1480	1480	0	0	100	999	999	999	5		1	0	0	0	1	11	200|201|202|203|204	20|20|20|20|20	Fangs_Khal	1		wound/OrcMale
+144	3	Empire_2	144	Monster_144	53	0	0	0	0	100	999	999	999			0	0	0	0	1	1	221|222|223|224|225	20|20|20|20|20	Imperial_Sentinel	0		wound/HumanMaleEnemy
+145	3	Empire_1	145	Monster_145	53	0	0	0	0	100	999	999	999			0	0	0	0	1	1	221|222|223|224|225	20|20|20|20|20	Imperial_Warden	0		wound/HumanMaleEnemy
+146	3	Empire_3	146	Monster_146	53	0	0	0	0	100	999	999	999			0	0	0	0	1	1	221|222|223|224|225	20|20|20|20|20	Imperial_Knight	0		wound/HumanMaleEnemy
+147	3	Volcano_Sgasa	147	Monster_147	53	2760	2760	0	0	100	999	999	999	11		1	0	0	0	1	10	221|222|223|224|225	20|20|20|20|20	Queen_bees_Doris	1		wound/HumanFamaleEnemy
+148	3	Empire_2	148	Monster_148	54	0	0	0	0	100	999	999	999			0	0	0	0	1	1	226|227|228|229|230	20|20|20|20|20	Imperial_Crossbowman	0		wound/HumanMaleEnemy
+149	3	Empire_1	149	Monster_149	54	0	0	0	0	100	999	999	999			0	0	0	0	1	1	226|227|228|229|230	20|20|20|20|20	Imperial_Warrior	0		wound/HumanMaleEnemy
+150	3	Empire_3	150	Monster_150	54	0	0	0	0	100	999	999	999			0	0	0	0	1	1	226|227|228|229|230	20|20|20|20|20	Imperial_Ranger	0		wound/HumanMaleEnemy
+151	3	Crazy_Stone_Jason	151	Monster_151	54	0	0	0	0	100	999	999	999	15		1	0	0	0	1	9	226|227|228|229|230	20|20|20|20|20	Fearless_Barron	1		wound/HumanMaleEnemy
+152	2	Orc_3	152	Monster_152	55	0	0	0	0	100	999	999	999			0	0	0	0	1	1	231|232|233|234|235	20|20|20|20|20	Ragefist_Crusher	0		wound/OrcMale
+153	2	Orc_1	153	Monster_153	55	0	0	0	0	100	999	999	999			0	0	0	0	1	1	231|232|233|234|235	20|20|20|20|20	Ragefist_Devastator	0		wound/OrcMale
+154	2	Orc_4	154	Monster_154	55	0	0	0	0	100	999	999	999			0	0	0	0	1	1	231|232|233|234|235	20|20|20|20|20	Ragefist_Warlock	0		wound/OrcMale
+155	2	Warlock_Mocha	155	Monster_155	55	3500	3500	0	0	100	999	999	999	26		2	0	0	0	1	8	231|232|233|234|235	20|20|20|20|20	Grand_Witch_Izmir	1		wound/OrcFemale
+156	2	Ogre_1	156	Monster_156	56	0	0	0	0	100	999	999	999			0	0	0	0	1	1	236|237|238|239|240	20|20|20|20|20	Duskblade_Ogre	0		wound/OgreMale
+157	2	Ogre_1	157	Monster_157	56	0	0	0	0	100	999	999	999			0	0	0	0	1	1	236|237|238|239|240	20|20|20|20|20	Duskblade_dominate	0		wound/OgreMale
+158	2	Ogre_2	158	Monster_158	56	0	0	0	0	100	999	999	999			0	0	0	0	1	1	236|237|238|239|240	20|20|20|20|20	Duskblade_mage	0		wound/OgreMale
+159	2	Giant_hammer_Lowhersh	159	Monster_159	56	2000	2000	0	0	100	999	999	999	4		1	0	0	0	1	7	236|237|238|239|240	20|20|20|20|20	Mountain_Gaulon	1		wound/OgreMale
+160	3	Empire_1	160	Monster_160	58	0	0	0	0	100	999	999	999			0	0	0	0	1	1	241|242|243|244|245	20|20|20|20|20	Imperial_Gallant	0		wound/HumanMaleEnemy
+161	3	Empire_3	161	Monster_161	58	0	0	0	0	100	999	999	999			0	0	0	0	1	1	241|242|243|244|245	20|20|20|20|20	Imperial_Blood_Knight	0		wound/HumanMaleEnemy
+162	3	Empire_4	162	Monster_162	58	0	0	0	0	100	999	999	999			0	0	0	0	1	1	241|242|243|244|245	20|20|20|20|20	Imperial_Wizard	0		wound/HumanMaleEnemy
+163	3	White_Feather_Marin	163	Monster_163	58	1250	1250	0	0	100	999	999	999	8		2	0	0	0	1	6	241|242|243|244|245	20|20|20|20|20	Silver_Hand_Siegfried	1		wound/HumanMaleEnemy
+164	3	Empire_2	164	Monster_164	60	0	0	0	0	100	999	999	999			0	0	0	0	1	1	246|247|248|249|250	20|20|20|20|20	Imperial_Mergan	0		wound/HumanMaleEnemy
+165	3	Empire_3	165	Monster_165	60	0	0	0	0	100	999	999	999			0	0	0	0	1	1	246|247|248|249|250	20|20|20|20|20	Imperial_Paladin	0		wound/HumanMaleEnemy
+166	3	Empire_1	166	Monster_166	60	0	0	0	0	100	999	999	999			0	0	0	0	1	1	246|247|248|249|250	20|20|20|20|20	Imperial_Tetsuei	0		wound/HumanMaleEnemy
+167	3	Eagle_king_Joan	167	Monster_167	60	4200	4200	0	0	100	999	999	999	25		2	0	0	0	1	5	246|247|248|249|250	20|20|20|20|20	Eagle_king_Joan	1		wound/HumanMaleEnemy
+168	1	Werewolf_2	168	Monster_168	5	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Deinonychus_Werewolf	0		wound/wolfman
+169	1	Werewolf_1	169	Monster_169	5	150	150	0	0	100	999	999	999	5		1	1	11|12|13|14	5|5|5|5	0	0	0	0	Walden_Baron	1		wound/wolfman
+170	2	Ogre_1	170	Monster_170	12	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Bloodmaul_Ogre	0		wound/OgreMale
+171	2	Ogre_2	171	Monster_171	12	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Bloodmaul_Warlock	0		wound/OgreMale
+172	2	Ogre_1	172	Monster_172	12	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Bloodmaul_executioner	0		wound/OgreMale
+173	2	Giant_hammer_Lowhersh	173	Monster_173	12	0	0	0	0	100	999	999	999	2		1	1	40|41|42|43|44|45|46|47	10|10|10|10|10|10|10|10	0	0	0	0	Giant_hammer_Lowhersh	1		wound/OgreMale
+174	4	Goblin_3	174	Monster_174	20	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Blackwater_chef	0		wound/Goblin
+175	4	Goblin_6	175	Monster_175	20	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Blackwater_Warlock	0		wound/Goblin
+176	4	Gary_King	176	Monster_176	20	800	800	0	0	100	999	999	999	9		1	1	73|74|75|76|77|78|79|80	10|10|10|10|10|10|10|10	0	0	0	0	Gary_King	1		wound/Goblin
+177	2	Orc_3	177	Monster_177	27	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Iron_teeth_bodyguard	0		wound/OrcMale
+178	2	Orc_4	178	Monster_178	27	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Iron_teeth_Warlock	0		wound/OrcMale
+179	2	Orc_3	179	Monster_179	27	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Iron_teeth_Beastmaster	0		wound/OrcMale
+180	2	Chiefs_Attila	180	Monster_180	27	1050	1050	0	0	100	999	999	999	3		1	1	101|102|103|104|105|106|107|108	10|10|10|10|10|10|10|10	0	0	0	0	Chiefs_Attila	1		wound/OrcMale
+181	3	Rebels_3	181	Monster_181	35	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Tower_Swashbuckler	0		wound/HumanMaleEnemy
+182	3	Rebels_2	182	Monster_182	35	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Tower_Lancers	0		wound/HumanMaleEnemy
+183	3	Rebels_4	183	Monster_183	35	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Tower_mage	0		wound/HumanMaleEnemy
+184	3	Oran_Archmage	184	Monster_184	35	930	930	0	0	100	999	999	999	22		2	1	124|125|126|127|128|129|130|131|132|133|134|135	10|10|10|10|10|10|10|10|10|10|10|10	0	0	0	0	Oran_Archmage	1		wound/HumanMaleEnemy
+185	6	Dragon_1	185	Monster_185	42	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Flame_Red_Dragon	0		wound/dragon
+186	6	Dragon_4	186	Monster_186	42	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Lightning_Blue_Dragon	0		wound/dragon
+187	6	Dragon_3	187	Monster_187	42	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Mirage_Green_Dragon	0		wound/dragon
+188	6	Black_Dragon	188	Monster_188	42	1800	1800	0	0	100	999	999	999	21		2	1	151|152|153|154|155|156|157|158|159|160|161|162	10|10|10|10|10|10|10|10|10|10|10|10	0	0	0	0	Black_flame	1		wound/dragon
+189	1	Spider_2	189	Monster_189	50	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Night_roar_Predators	0		wound/Spider
+190	1	Panther_2	190	Monster_190	50	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Night_roar_Cheetah	0		wound/Leopard
+191	1	Spider_1	191	Monster_191	50	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Night_roar_Weaver	0		wound/Spider
+192	1	Spider_3	192	Monster_192	50	1350	1350	0	0	100	999	999	999	13		1	1	178|179|180|181|182|183|184|185|186|187|188|189|190|191|192|193	10|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10	0	0	0	0	Widow_night	1		wound/Spider
+193	6	Dragon_1	193	Monster_193	57	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Red_Screaming	0		wound/dragon
+194	6	Dragon_4	194	Monster_194	57	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Blue_Sunstrider	0		wound/dragon
+195	6	Dragon_3	195	Monster_195	57	0	0	0	0	100	999	999	999			0	0	0	0	0	0	0	0	Windwatcher_Green	0		wound/dragon
+196	6	Dragon_2	196	Monster_196	57	2300	2300	0	0	100	999	999	999	16		2	1	204|205|206|207|208|209|210|211|212|213|214|215|216|217|218|219	10|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10	0	0	0	0	Golden_Wings	1		wound/dragon
+197	3	Felipe	197	Monster_197		2500	2500	0	0	100	3000	0	0	22		2	0	0	0	0	0	0	0	Felipe	1		wound/HumanMale
+198	3	Charmilles	198	Monster_198		1200	1200	0	0	100	0	2500	0	19		1	0	0	0	0	0	0	0	Charmilles	1		wound/HumanFamale
+199	3	Empire_1		Monster_199		1200	1200	0	0	100	1500	0	0	3		1	0	0	0					Imperial_Swordsman	0		wound/HumanMale
+200	3	Empire_2		Monster_200		1200	1200	0	0	100	0	0	1500	10		1	0	0	0					Imperial_Crossbowman	0		wound/HumanMale
+201	3	Rebels_1		Monster_201		1200	1200	0	0	100	0	0	600	0		0								Gleneagles_longbows			wound/HumanMaleEnemy
+202	3	Rebels_1		Monster_202		1200	1200	0	0	100	0	0	600	0		0								Gleneagles_crossbowman			wound/HumanMaleEnemy
+203	3	Captain_Hannibal		Monster_203		1200	1200	0	0	100	1500	0	0	6		1								Captain_Hannibal			wound/HumanMaleEnemy
+204	3	Eagle_king_Joan		Monster_204		1200	1200	0	0	100	0	2600	0	4		1								Eagle_king_Joan			wound/HumanMaleEnemy
+205	3	Rebels_3		Monster_205		1200	1200	0	0	100	0	600	0	0		0								Gleneagles_heavy_cavalry			wound/HumanMaleEnemy
+206	3	Rebels_2		Monster_206		1200	1200	0	0	100	600	0	0	0		0								Gleneagles_defenders			wound/HumanMaleEnemy
+207	6	Black_Dragon		Monster_207		9999	9999	0	0	100	0	0	9999	29		4								Black_Dragon		1	wound/dragon

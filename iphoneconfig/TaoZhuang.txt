@@ -1,0 +1,24 @@
+INT	STRING	INT	INT	INT	INT	INT	INT
+Index	Name(名称)	"属性1类型(1物理攻击,2魔法攻击,3物理防御,4魔法防御,5移动,6步兵统兵数量,7骑兵统兵数量,8弓手统兵数量)"	属性1类型加成数值	参数 0表示按照数值增加有效 1表示 按照百分比增加有效	属性2类型	属性2类型加成数值	参数2 0表示按照数值增加有效 1表示 按照百分比增加有效
+#id	name	attrType1	attrValue1	valueType1	attrType2	attrValue2	valueType2
+1	Setname_1	1	10	0	2	10	0
+2	Setname_2	1	20	0	0	0	0
+3	Setname_3	1	30	0	0	0	0
+4	Setname_4	1	40	0	0	0	0
+5	Setname_5	2	50	0	0	0	0
+6	Setname_6	1	60	0	0	0	0
+7	Setname_7	2	70	0	0	0	0
+8	Setname_8	1	80	0	2	80	0
+9	Setname_9	2	90	0	0	0	0
+10	Setname_10	1	100	0	0	0	0
+11	Setname_11	1	110	0	3	5	0
+12	Setname_12	1	120	0	2	120	0
+13	Setname_13	2	130	0	4	5	0
+14	Setname_14	2	140	0	4	10	0
+15	Setname_15	1	150	0	3	10	0
+16	Setname_16	1	160	0	2	160	0
+17	Setname_17	1	170	0	3	10	0
+18	Setname_18	1	180	0	3	15	0
+19	Setname_19	2	190	0	4	15	0
+20	Setname_20	1	200	0	3	15	0
+21	Setname_21	1	210	0	4	15	0

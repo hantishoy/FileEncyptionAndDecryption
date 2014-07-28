@@ -1,0 +1,12 @@
+INT	STRING	STRING	INT	INT	INT	INT	INT
+建筑id	建筑名	描述	限制个数	可由玩家建造	可由玩家拆除	固定位置	图标
+#id	name	description	buildLimit	canBuild	canDel	fixedPosition	icon
+1	Build_1	BuildDesc_1	1	0	0	0	1
+2	Build_2	BuildDesc_2	1	0	0	0	2
+3	Build_3	BuildDesc_3	1	1	1	2	3
+4	Build_4	BuildDesc_4	1	1	0	0	4
+5	Build_5	BuildDesc_5	1	1	1	0	5
+6	Build_6	BuildDesc_6	8	1	1	0	6
+7	Build_7	BuildDesc_7	8	1	1	0	7
+8	Build_8	BuildDesc_8	8	1	1	0	8
+9	Build_9	BuildDesc_9	8	1	1	0	9

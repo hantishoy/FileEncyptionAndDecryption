@@ -1,0 +1,114 @@
+INT	STRING	INT	INT	INT	INT	INT	INT	STRING	INT	INT	STRING	INT	BOOLEAN
+指引id	对话内容	指引窗口	指引目标	指引目标2	指引类型（1向下箭头，2向左箭头，3向上箭头，4向右箭头，5滑动箭头指引，8发光，16特殊向下移动）	NPC头像，非NPC时显示在黑条上	NPC方向	播放音效	完成条件，1点击，2松开滑动条，3自定义，4点击任意点	是NPC对话还是横幅文字	NPC名字	结束后禁止任意点击	遮罩
+#id	content	window	target	target2	guideType	npcHeadImg	isLeftSide	sound	completeEvent	isNpcTalk	npcName	disableAction	mask
+1	Story_2	0	0		0	1	1	sigh	1	1	NpcName_1		1
+2	Story_3	0	0		0	2	0	sneer	1	1	NpcName_2		1
+3	Story_4	0	0		0	1	1		1	1	NpcName_1		1
+4	Story_5	0	0		0	2	0		1	1	NpcName_2		1
+5	Story_6	0	0		0	1	1	angry	1	1	NpcName_1		1
+6	Story_7	0	0		0	1	1		1	1	NpcName_1		1
+7	Story_8	0	0		0	999	0		1	1			1
+8	Story_9	0	0		0	3	1	cheer	1	1	NpcName_3		1
+9	Story_10	1	1001		9	0			1	0			1
+10	Story_11				0	0			1	0			1
+11	Story_12					6			1	0			1
+12	Story_13					0			1	0			1
+13	Story_14					0			1	0			1
+14	Story_15	1	1002		16	0			3	0			1
+15		1	1001		9				1	0			1
+16	Story_16					0			1	0			1
+17	Story_17	1	1002		2	0			4	0			1
+18	Story_18	1	1001		9	0			1	0			1
+19	Story_19					0			1	0			1
+20	Story_20					0			1	0			1
+21	Story_21	1	1003		9	0			1	0			1
+22	Story_22					4	1		1	1	NpcName_4		1
+23	Story_23					4	1		1	1	NpcName_4		1
+24	Story_24					1	1		1	1	NpcName_1		1
+25	Story_25					4	0		1	1	NpcName_4		1
+26	Story_26					999	1		1	1			1
+27	Story_27					4	0		1	1	NpcName_4		1
+28	Story_67					999	1		1	1			1
+29	Story_68					4	0		1	1	NpcName_4		1
+30	Story_69					4	0		1	1	NpcName_4		1
+31		1	2001		9	0			1	0			1
+32	Story_32					4	0		1	1	NpcName_4		1
+33	Story_33					999	1		1	1			1
+34	Story_34					4	0		1	1	NpcName_4		1
+35	Story_35					4	0		1	1	NpcName_4		1
+36													
+37	Story_78	14	14004		1	0			1				1
+38		4	4001		4	0			1			1	1
+39		5	5001		1	0			1				1
+40		6	6001		4	0			1			1	1
+41	Story_71					4	1		1	1	NpcName_4		1
+42	Story_76	3	3001		2	0			1	0			1
+43		4	4002		4	0			1			1	1
+44		5	5001		1	0			1				1
+45		6	6001		4	0			1			1	1
+46													
+47	Story_77	3	3001		2	0			1	0			1
+48		4	4003		4	0			1			1	1
+49		5	5001		4	0			1				1
+50		6	6001		4	0			1			1	1
+51													
+52	Story_38	3	3001		2	0			1	0			1
+53		4	4004		4	0			1			1	1
+54		5	5001		1	0			1				1
+55		6	6001		4	0			1			1	1
+56		5	5002		1	0			1				1
+57		7	7001		1	0			1				1
+58		6	6001		4	0			1			1	1
+59	Story_39					4	1		1	1	NpcName_4		1
+60	Story_40					4	1		1	1	NpcName_4		1
+61		7	7003		3	0			1				1
+62	Story_39	14	14004		1	0			1				1
+63		4	4005		4	0			1			1	1
+64		5	5001		4	0			1				1
+65		6	6001		4	0			1			1	1
+66		5	5003		1	0			1				1
+67		8	8001		5	0			2				1
+68		8	8002		1	0			1			1	1
+69	Story_40	2	2002		1	0			1	0			1
+70	Story_53	10	10001		2	0			1	0			1
+71	Story_54	9	9001		1	0			1	0			1
+72	Story_55	9	9002		1	0			1	0			1
+73	Story_56					4	1		1	1	NpcName_4		1
+74	Story_57					4	1		1	1	NpcName_4		1
+75		2	2003		1	0			1				1
+76		11	11001		1	0			1				1
+77		12	12003		1	0			1				1
+78		12	12001		5	0			2				1
+79		12	12002		1	0			1			1	1
+80	Story_41					1	1		1	1	NpcName_1		1
+81	Story_42					2	0		1	1	NpcName_2		1
+82	Story_43					4	1		1	1	NpcName_4		1
+83	Story_44					1	0		1	1	NpcName_1		1
+84	Story_45					2	1		1	1	NpcName_2		1
+85	Story_46					1	0		1	1	NpcName_1		1
+86	Story_47					2	1		1	1	NpcName_2		1
+87	Story_48					999	0		1	1			1
+88	Story_49					2	1		1	1	NpcName_2		1
+89	Story_50					5	0		1	1	NpcName_5		1
+90	Story_51					4	1		1	1	NpcName_4		1
+91		14	14001		2				1				1
+92	Story_52					4	1		1	1	NpcName_4		1
+93		13	13001		1				1				1
+94	Story_58					4	1		1	1	NpcName_4		1
+95	Story_59					4	1		1	1	NpcName_4		1
+96	Story_60					4	1		1	1	NpcName_4		1
+97	Story_61					4	1		1	1	NpcName_4		1
+98	Story_62					4	1		1	1	NpcName_4		1
+99									1				
+100	Story_63					4	1		1	1	NpcName_4		1
+101		14	14002		1				1				1
+102		7	7002		1				1				1
+103	Story_64					4	1		1	1	NpcName_4		1
+104		14	14001		2				4				0
+105	Story_65					4	1		1	1	NpcName_4		1
+106		14	14003		3				1				1
+107	Story_66					4	1		1	1	NpcName_4		1
+108	Story_72	1	1004		9	0			1	0			1
+109	Story_73					0			1	0			1
+110	Story_74					4	1		1	1	NpcName_4		1
+111	Story_75					0			1	0			1

@@ -1,0 +1,4 @@
+INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+ID(1代表首次充值)	物品id1	物品数量1	物品id2	物品数量2	物品id3	物品数量3	物品id4	物品数量4	物品id5	物品数量5
+#id	item id1	cnt	item id	cnt	item id	cnt	item id	cnt	item id	cnt
+1	250	1	251	1	252	1	253	1		

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="0969b84a-8348-4f67-8ce3-efa24587ab1a" projectUUID="0969b84a-8348-4f67-8ce3-efa24587ab1a" pureCatalystProject="false" sdkVersion="4.6.0" uuid="b2bc756f-080d-4dba-a7d2-42ec1a48601a" version="15">
+  <projects/>
+  <src/>
+  <swc>
+    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="b2bc756f-080d-4dba-a7d2-42ec1a48601a"/>
+    <linked location="E:/File Encryption and Decryption/libs" path="/libs" position="1" uuid="b2bc756f-080d-4dba-a7d2-42ec1a48601a"/>
+    <linked location="E:/File Encryption and Decryption/libs/fzip.swc" path="/libs/fzip.swc" position="2" uuid="b2bc756f-080d-4dba-a7d2-42ec1a48601a"/>
+  </swc>
+  <misc/>
+  <theme/>
+  <mxmlFormattingPrefs groupAttributesByState="true" maxLineWidth="100" mxmlAlignAttributes="true" mxmlAttributeOrder="id,userLabel,includeIn,excludeFrom,visible,x,y,z,left,right,top,bottom,width,height,minWidth,minHeight,maxWidth,maxHeight,label" mxmlKeepAttributeValuesOrganized="true"/>
+</fxpProperties>

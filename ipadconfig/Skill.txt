@@ -1,0 +1,32 @@
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	STRING
+#技能ID	技能名称	技能描述	己方目标（MyTargetType枚举）	敌方目标（EnemyTargetType枚举）	己方和敌方目标(MyAndEnemyTargetType枚举)	怒气消耗	BuffID	伤害类型(0没有伤害，1物理伤害，2魔法伤害，3物理伤害和魔法伤害)	"参数1(参数类型，0没有参数，1增加能量，2减少能量，3增加护甲，4减少护甲，5增加魔法抗性，6减少魔法抗性，7增加物理攻击力, 8减少物理攻击力,9免疫物理技能伤害，10伤害依次递增 )"	参数1数值	"参数2(参数类型，0没有参数，1增加能量，2减少能量，3增加护甲，4减少护甲，5增加魔法抗性，6减少魔法抗性，7增加物理攻击力, 8减少物理攻击力,9免疫物理技能伤害，10伤害依次递增 )"	参数2数值	技能动画	
+#id	name	description	myTargetType	enemyTargetType	myAndEnemyTargetType	costPower	buffID	damageType	attrType1	attrValue1	attrType2	attrValue2	animation	
+1	SkillName_1	SkillDesc_1	1			1	1	0	0				1002	盾墙
+2	SkillName_2	SkillDesc_2	1			1	2	0	0				1002	绝对防御
+3	SkillName_3	SkillDesc_3		1		1		1	4	10			1001	破甲战锤
+4	SkillName_4	SkillDesc_4		1		1		2	6	10			1003	风暴战锤
+5	SkillName_5	SkillDesc_5		2		1		1	0				1006	连斩
+6	SkillName_6	SkillDesc_6		2		1		2	0				1005	熔岩战斧
+7	SkillName_7	SkillDesc_7		5		2		1	0				1007	连珠乱射
+8	SkillName_8	SkillDesc_8		5		2		2	0				1008	破魔乱射
+9	SkillName_9	SkillDesc_9		1		1		2	2	1			1009	魔法陷阱
+10	SkillName_10	SkillDesc_10		1		1		1	2	1			1010	狩猎陷阱
+11	SkillName_11	SkillDesc_11		1		2		2	1	1			1011	火焰射击
+12	SkillName_12	SkillDesc_12		1		2		1	1	1			1012	勇气之箭
+13	SkillName_13	SkillDesc_13		1		1		3	0				1013	闪电快箭
+14	SkillName_14	SkillDesc_14		1		1		3	0				1026	风雷快刀
+15	SkillName_15	SkillDesc_15	6			1	4	0	0	0			1014	神之庇佑
+16	SkillName_16	SkillDesc_16		6		2		2	0				1021	谴责
+17	SkillName_17	SkillDesc_17	6			2	5	0	0	0			1022	鼓舞
+18	SkillName_18	SkillDesc_18	4			1	3	0	0				1024	战前演讲
+19	SkillName_19	SkillDesc_19		1		2		1	4	10			1025	长枪穿刺
+20	SkillName_20	SkillDesc_20		1		2		2	6	10			1027	炽热投掷
+21	SkillName_21	SkillDesc_21		7		2		2					1020	飓风
+22	SkillName_22	SkillDesc_22		6		2		2	10	15			1004	连环闪电
+23	SkillName_23	SkillDesc_23		6		2	6	0	0	0			1023	惩罚
+24	SkillName_24	SkillDesc_24	7			1			1	1			1019	祝福
+25	SkillName_25	SkillDesc_25	2			2	7						1015	守护天使
+26	SkillName_26	SkillDesc_26	2			2	8						1016	天堂之壁
+27	SkillName_27	SkillDesc_27	6			1	9						1017	勇气之镜
+28	SkillName_28	SkillDesc_28	6			1	10						1018	智慧之镜
+29	SkillName_29			6		5		2						

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+					   xmlns:s="library://ns.adobe.com/flex/spark"
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   width="400" height="500" creationComplete="init()">
+	<fx:Script source="Main.as"/>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:CheckBox id="checkBox_Zip" x="30" y="101" label="压缩"/>
+	<s:TextArea id="tx_Output" x="30" y="322" width="326" height="134"/>
+	<s:Button id="btn_Scan" x="286" y="71" label="浏览"/>
+	<s:Button id="btn_ScanZip" x="286" y="178" label="浏览"/>
+	<s:Button id="btn_Encryption" x="278" y="130" label="加密与解密"/>
+	<s:Label x="30" y="47" width="230" height="26" fontSize="20" text="加密  解密："/>
+	<s:Label x="30" y="292" width="172" height="26" fontSize="20" text="输出信息："/>
+	<s:Label x="138" y="10" width="122" fontSize="30" text="文件加密"/>
+	<s:ComboBox id="cb_Input" x="30" y="71" width="230" />
+	<s:ComboBox id="cb_Output" x="77" y="99" width="183" />
+	<s:Button id="btn_ScanCfg" x="273" y="100" label="选择存储路径"/>
+	<s:TextInput id="tx_InputZip" x="30" y="189" width="230" editable="false"/>
+	<s:Button id="btn_Decryption" x="286" y="207" label="解密"/>
+	<s:Label x="30" y="163" width="251" height="26" fontSize="20" text="解密压缩文件cfg："/>
+	<s:Label x="29" y="230" width="172" height="26" fontSize="20" text="记录文件日期:"/>
+	<s:TextInput id="tx_InputURL" x="29" y="255" width="231" editable="false"/>
+	<s:Button id="btn_FileDate" x="287" y="274" label="记录日期"/>
+	<s:Button id="btn_ScanURL" x="286" y="245" label="浏览"/>
+</s:WindowedApplication>

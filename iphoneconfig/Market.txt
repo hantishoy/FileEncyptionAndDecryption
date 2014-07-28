@@ -1,0 +1,30 @@
+INT	INT	INT	INT	STRING	STRING	STRING	INT	INT	INT	STRING
+#商品ID	类型(1钻石2食物3石头4金币)	价格	数值(如果是钻石就是数值，如果是其他就是总上限百分比)	商品编号	在苹果商店中的ID	商品描述	促销类型	平台（按位记录，1苹果官方，2PP平台，4移动MM，8快用，16阿拉伯，32给力游，64爱游戏，128联通 0xFFFFFFFF全部）	商品图标	商品名称
+#id	resourceType	price	amount	mmPayCode	product	description	saleType	platform	icon	name
+1	1	6	60			ShopItem_1	0	43	1	ShopItemName_1
+2	1	30	300			ShopItem_2	0	43	2	ShopItemName_2
+3	1	68	680			ShopItem_3	0	43	3	ShopItemName_3
+4	1	158	1580			ShopItem_4	0	43	4	ShopItemName_4
+5	1	328	3280			ShopItem_5	0	43	5	ShopItemName_5
+6	1	648	6480			ShopItem_6	0	43	6	ShopItemName_6
+7	1	1	10	30000811699005		ShopItem_7		68	1	ShopItemName_7
+8	1	3	30	30000811699006		ShopItem_8		68	2	ShopItemName_8
+9	1	6	60	30000811699001		ShopItem_9		196	3	ShopItemName_9
+10	1	10	100	30000811699002		ShopItem_10		196	4	ShopItemName_10
+11	1	20	200	30000811699003		ShopItem_11		196	5	ShopItemName_11
+12	1	30	300	30000811699004		ShopItem_12		196	6	ShopItemName_12
+13	1	0.99	40		harbalmuluk.gems0.99	ShopItem_22	0	16	1	ShopItemName_22
+14	1	4.99	210		harbalmuluk.gems4.99	ShopItem_23	0	16	2	ShopItemName_23
+15	1	19.99	880		harbalmuluk.gems19.99	ShopItem_24	0	16	3	ShopItemName_24
+16	1	49.99	2300		harbalmuluk.gems49.99	ShopItem_25	0	16	4	ShopItemName_25
+17	1	79.99	3850		harbalmuluk.gems79.99	ShopItem_26	0	16	5	ShopItemName_26
+18	1	99.99	5000		harbalmuluk.gems99.99	ShopItem_27	0	16	6	ShopItemName_27
+19	4		10			ShopItem_13	0	4294967295	7	ShopItemName_13
+20	4		50			ShopItem_14	0	4294967295	8	ShopItemName_14
+21	4		100			ShopItem_15	0	4294967295	9	ShopItemName_15
+22	3		10			ShopItem_16	0	4294967295	10	ShopItemName_16
+23	3		50			ShopItem_17	0	4294967295	11	ShopItemName_17
+24	3		100			ShopItem_18	0	4294967295	12	ShopItemName_18
+25	2		10			ShopItem_19	0	4294967295	13	ShopItemName_19
+26	2		50			ShopItem_20	0	4294967295	14	ShopItemName_20
+27	2		100			ShopItem_21	0	4294967295	15	ShopItemName_21
